@@ -147,7 +147,8 @@
 						</div>
 					</div>
 
-					<?php include_once("menu.html"); ?>
+				<!-- Sidebar -->
+					<div id="sidebar"></div>
 			</div>
 
 		<!-- Scripts -->
@@ -156,12 +157,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
+			<!--
+				<script>
 				fetch('menu.html')
 			  		.then(response => response.text())
 			  		.then(data => {
 					document.getElementById('sidebar').innerHTML = data;
 			 		 });
 		  	</script>
+			-->
+			
 	</body>
 </html>
