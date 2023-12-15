@@ -155,11 +155,9 @@
 
 		<!-- Scripts -->
 			<script>
-			// 使用 fetch() 方法获取导航组件的内容
 				fetch('menu.html')
 			  		.then(response => response.text())
 			  		.then(data => {
-				// 将导航组件的内容插入到导航组件容器中
 					document.getElementById('sidebar').innerHTML = data;
 			 		 });
 		  	</script>
