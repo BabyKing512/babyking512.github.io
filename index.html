@@ -163,7 +163,7 @@
 				fetch('menu.html')
 			  		.then(response => response.text())
 			  		.then(data => {
-					document.getElementById('sidebar').classList.add(data.getElementByClassName("inner"));
+					document.getElementById('sidebar').innerHTML = data;
 			 		 });
 		  	</script>
 	</body>
