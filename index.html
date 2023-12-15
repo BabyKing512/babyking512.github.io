@@ -161,7 +161,7 @@
 				fetch('menu.html')
 			  		.then(response => response.text())
 			  		.then(data => {
-					document.getElementById('sidebar').children = data;
+					document.getElementById('sidebar').appendChild = data.getElementByClassName("inner");
 			 		 });
 		  	</script>
 	</body>
