@@ -149,6 +149,86 @@
 
 				<!-- Sidebar -->
 					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="analysis training/analysis.html">Analysis Training</a></li>
+										<li><a href="lecture notes/lecture notes.html">Lecture Notes</a></li>
+										<li>
+											<span class="opener">Research</span>
+											<ul>
+												<li><a href="research/main work.html">Main work</a></li>
+												<li><a href="research/related notes.html">Related notes</a></li>
+											</ul>
+										</li>
+										<li><a href="publication/publicaton.html">Publications</a></li>
+										<!--
+										<li><a href="elements.html">Elements</a></li>
+										-->							
+									</ul>
+								</nav>
+
+							<!-- Section -->
+							<!--
+								<section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+							-->
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>I'm now looking for someone with similar interest. If you're also interested in numercial solutions of partial differential equations and optimal control or have any questions, you can contact me at any time.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">12010910@mail.sustech.edu.cn</a></li>
+										<!--
+											<li class="icon solid fa-phone">(000) 000-0000</li>
+										-->										
+										<li class="icon solid fa-home">Xueyuan Ave #1088<br />
+										Nashville, Shenzhen, China</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
 					</div>
 
 			</div>
@@ -159,12 +239,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				fetch('menu.html')
-			  		.then(response => response.text())
-			  		.then(data => {
-					document.getElementById('sidebar').innerHTML = data;
-			 		 });
-		  	</script>
+
 	</body>
 </html>
