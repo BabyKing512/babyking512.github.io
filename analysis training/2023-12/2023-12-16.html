@@ -6,10 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Analysis Training</title>
+		<title>2023-12-15</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -22,7 +24,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="../index.html" class="logo"><strong>BabyKing's </strong>Research Blog</a>
+									<a href="../../index.html" class="logo"><strong>Babyking's </strong>Research Blog</a>
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -35,36 +37,30 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Analysis Training</h1>
+										<h1>2023-12-16</h1>
 									</header>
 
-									<!--
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									-->
+									<span class="image main"><img src="../img/Quote.jpg" alt="" /></span>
 
-									<p>Good analytical skills is important for a qualified mathematician. In this section, I will upload analysis exercises daily (hopefully). Some of the contents are from <strong>Mathhub</strong>, a great math blogger at Zhihu.</p>
-									
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="img/Heart Curve.jpg" alt="" /></a>
-											<h3>2023-12-15</h3>
-											<p>Limit of series.</p>
-											<ul class="actions">
-												<li><a href="2023-12/2023-12-16.html" class="button">More</a></li>
-											</ul>
-										</article>																	
-									</div>
+									<p>Today' exercise is about the calculation of integral.</p>
 
-                                    <div class="posts">
-										<article>
-											<a href="#" class="image"><img src="img/Heart Curve.jpg" alt="" /></a>
-											<h3>2023-12-15</h3>
-											<p>Limit of series.</p>
-											<ul class="actions">
-												<li><a href="2023-12/2023-12-15.html" class="button">More</a></li>
-											</ul>
-										</article>																	
-									</div>
+									<hr class="major" />
+
+									<h2>Exercise</h2>
+										<div class="box">
+											<p>Calculate $$ \int_{0}^{\infty} \frac{\, dx}{(1+x^{2})(1+x^{2019})}$$</p>
+										</div>
+
+									<hr class="major" />
+
+									<h2>Proof</h2>
+										<div class="box">
+											<p>Proof: $$\begin{align} & \int_{0}^{\infty} \frac{\, dx}{(1+x^{2})(1+x^{2019})} \\
+												 = & \int_{0}^{1} \frac{\, dx}{(1+x^{2})(1+x^{2019})} + \int_{1}^{\infty} \frac{\, dx}{(1+x^{2})(1+x^{2019})} \\ 
+												 = & \int_{0}^{1} \frac{\, dx}{(1+x^{2})(1+x^{2019})} + \int_{0}^{1} \frac{x^{2019}\, dx}{(1+x^{2})(1+x^{2019})} \\
+												 & = \int_{0}^{\infty} \frac{\, dx}{(1+x^{2})} \\
+												 = & \frac{\pi}{2}$$</p>
+
 								</section>
 
 						</div>
@@ -87,17 +83,17 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="../index.html">Homepage</a></li>
-										<li><a href="../analysis training/analysis.html">Analysis Training</a></li>
-										<li><a href="../lecture notes/lecture notes.html">Lecture Notes</a></li>
+										<li><a href="../../index.html">Homepage</a></li>
+										<li><a href="../../analysis training/analysis.html">Analysis Training</a></li>
+										<li><a href="../../lecture notes/lecture notes.html">Lecture Notes</a></li>
 										<li>
 											<span class="opener">Research</span>
 											<ul>
-												<li><a href="../research/main work.html">Main work</a></li>
-												<li><a href="../research/related notes.html">Related notes</a></li>
+												<li><a href="../../research/main work.html">Main work</a></li>
+												<li><a href="../../research/related notes.html">Related notes</a></li>
 											</ul>
 										</li>
-										<li><a href="../publication/publicaton.html">Publications</a></li>
+										<li><a href="../../publication/publicaton.html">Publications</a></li>
 									</ul>
 								</nav>
 
@@ -128,11 +124,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
 
 	</body>
 </html>
